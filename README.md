@@ -3,6 +3,19 @@ Self-Driving Car Engineer Nanodegree Program
 
 ---
 
+## Basic Build Instructions
+
+1. Clone this repo.
+2. Make a build directory: `mkdir build && cd build`
+3. Compile: `cmake .. && make`
+4. Run it: `./pid <proportional-coeff> <integral-coeff> <differential-coeff>`
+
+## Usage
+`run.sh` has preconfigured pid control params.
+
+    $chmod +x run.sh
+    $./run.sh
+
 ## Dependencies
 
 * cmake >= 3.5
@@ -19,7 +32,7 @@ Self-Driving Car Engineer Nanodegree Program
   * Run either `./install-mac.sh` or `./install-ubuntu.sh`.
   * If you install from source, checkout to commit `e94b6e1`, i.e.
     ```
-    git clone https://github.com/uWebSockets/uWebSockets 
+    git clone https://github.com/uWebSockets/uWebSockets
     cd uWebSockets
     git checkout e94b6e1
     ```
@@ -28,12 +41,7 @@ Self-Driving Car Engineer Nanodegree Program
 
 There's an experimental patch for windows in this [PR](https://github.com/udacity/CarND-PID-Control-Project/pull/3)
 
-## Basic Build Instructions
 
-1. Clone this repo.
-2. Make a build directory: `mkdir build && cd build`
-3. Compile: `cmake .. && make`
-4. Run it: `./pid`. 
 
 ## Editor Settings
 
